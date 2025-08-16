@@ -1,7 +1,7 @@
 name: Daily Contribution
 on:
   schedule:
-  - cron: '0 10 * * *' # At the start of working day
+  - cron: '0 10 * * 1-5' # At the start of working day
 
   workflow_dispatch: # To run manually
 
